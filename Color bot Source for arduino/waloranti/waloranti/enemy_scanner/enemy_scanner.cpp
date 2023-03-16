@@ -59,8 +59,11 @@ bool enemy_scanner::is_enemy_in_crosshair( ) const
                
             if ( x < center_x ) { found_left_side = true; }       
             else if ( x > center_x ) { found_right_side = true; }
-                
-            vects.push_back( vec2( x - center_x, y - center_y ) );
+               
+            vec2 a = vec2();
+            a.x = x - center_x;
+            a.y = y - center_y;
+            vects.push_back(a);
 
             for ( auto& p : vects )
             {
