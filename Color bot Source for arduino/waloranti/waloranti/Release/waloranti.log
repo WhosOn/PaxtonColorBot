@@ -1,0 +1,13 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32215 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"D:\vcpkg\installed\x64-windows\include" /Zi /W0 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Fo"Release\\" /Fd"Release\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:prompt main.cpp render_menu\render_menu.cpp
+  main.cpp
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(34,30): error C2065: 'window_process': undeclared identifier
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(38,57): error C2065: 'IDI_ICON1': undeclared identifier
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(51,8): error C3861: 'create_device': identifier not found
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(53,4): error C3861: 'destroy_device': identifier not found
+  render_menu.cpp
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(34,30): error C2065: 'window_process': undeclared identifier
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(38,57): error C2065: 'IDI_ICON1': undeclared identifier
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(51,8): error C3861: 'create_device': identifier not found
+D:\# Cheats\Valorant\Color bot Source for arduino\Color bot Source for arduino\waloranti\waloranti\render_menu\render_menu.hpp(53,4): error C3861: 'destroy_device': identifier not found
